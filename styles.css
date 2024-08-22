@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b5c6d1; /* Легкий серый цвет для фона */
+    color: #333; /* Темно-серый цвет текста для хорошей читаемости */
+    text-align: center; /* Центрируем текст */
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовка */
+h1 {
+    color: #007bff; /* Ярко-синий цвет для заголовка */
+    margin: 40px 0; /* Отступы сверху и снизу */
+    font-size: 2.5em; /* Увеличенный размер шрифта для заголовка */
+    font-weight: bold; /* Жирный шрифт для акцента */
+}
+
+/* Стили для кнопки */
+button {
+    background-color: #007bff; /* Основной цвет фона кнопки */
+    border: none;
+    color: #ffffff; /* Белый цвет текста на кнопке */
+    padding: 12px 24px; /* Отступы внутри кнопки */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px; /* Скругленные углы для современного вида */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавные переходы для фона и масштабирования */
+}
+
+button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+    transform: scale(1.05); /* Легкое увеличение кнопки при наведении */
+}
+
+/* Стили для контейнера с информацией */
+.container {
+    max-width: 800px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 20px; /* Отступы внутри контейнера */
+    background-color: #ffffff; /* Белый фон контейнера */
+    border-radius: 8px; /* Скругленные углы для контейнера */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для создания глубины */
+}
+
+/* Стили для параграфов */
+p {
+    line-height: 1.6; /* Более широкий межстрочный интервал для удобства чтения */
+    margin: 0 0 20px; /* Отступы снизу для разделения параграфов */
+}
